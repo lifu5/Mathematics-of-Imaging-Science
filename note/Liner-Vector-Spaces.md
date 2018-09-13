@@ -1,4 +1,4 @@
-##Linear Vector Spaces##
+## Linear Vector Spaces ##
 
 
 Let us define a linear vector space, in which the operations of addition and multiplication byscalar are defined and satisfy the following nine conditions.
@@ -11,4 +11,27 @@ Let us define a linear vector space, in which the operations of addition and mul
 
 4. **f**1 +**f**2 = **f**2 + **f**1
 
-5. 
+5. ( **f**1+**f**2)+**f*3 = **f**1 +( **f**2 +**f**3)
+
+6. u( **f**1 + **f**2) = u**f**1+u**f**2
+
+7. **0** vector: 0**f** = **0**, **0**+**f** = **f**
+
+8. Continuity of addition: if lim_n **f**n = **f** lim_n **g**n = **g**, then lim_n( **f**n+**g**n) = **f**+**g**, n-> infinite
+
+9. Continuity of multiplication if ... then lim_n( **f**n**g**n) = **fg**
+
+Now we define metric. The definition should satisfies three conditions.
+
+1.  d( **f**1, **f**2) = d( **f**2, **f**1)
+2.  d( **f**1, **f**2) >= 0
+3.  d( **f**1, **f**2) = 0 iff f1 =f2
+4.  triangle inequality
+
+Norm, it satisfy
+
+1. ||**f**|| >= 0 with equality iff **f**=0
+2. ||u**f**|| = |u|*||**f**|| u is an arbitrary real or complex
+3. triangle inequality
+
+usually we have L2 norm, L1 norm, Lp norm and L_infinte norm (sup norm)
