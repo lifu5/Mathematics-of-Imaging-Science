@@ -66,9 +66,19 @@ inner product: **H**x**H** --> **R**
 A Hilbert space is always normed with the norm ||f|| defined as <a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt(f_1,f_1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt(f_1,f_1)" title="\sqrt(f_1,f_1)" /></a>
 so that Hilbert spaces are Banach spaces.The coverse doese not hold, since not all norms are compatible with the required properties of scalar products. for example, L_p (p!=2)
 
-In my view inner product is a stronger condition than norm
+add by Fu, In my view inner product is a stronger condition than norm
 
-Now we can give two examples of Hilbert Space: &nbsp; A finite dimensional Eculidean soace and the space L_2(a,b)
+Now we can give two examples of Hilbert Space: &nbsp; A finite dimensional Eculidean space and the space L2(a,b) with a scalar product defined by <a href="https://www.codecogs.com/eqnedit.php?latex=^{\int_{\alpha}^{\beta&space;}f(x)_{1}^{*}f_{2}(x)dx}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?^{\int_{\alpha}^{\beta&space;}f(x)_{1}^{*}f_{2}(x)dx}" title="^{\int_{\alpha}^{\beta }f(x)_{1}^{*}f_{2}(x)dx}" /></a>
+For the norm to exist, the integral over range(alpha, beta) must exist, so L2(a,p) is referred to as the space of square-inegrable functions.
+
+```
+add by Fu, in my view, we can regard a finite E^n as a continuous infinite function in range(alpha, beta), something like (x1,..., xN, 0,0,0,0,0), a vector in E^N corresponds to a mapping or function in range (a,b).
+```
+**weighted scalar products** can let us deal with functions that are not square-integrable themselves. the norm is defined by <a href="https://www.codecogs.com/eqnedit.php?latex=||f||_w&space;=&space;[\int_{\alpha}^{\beta}{dx\&space;w(x))|f(x)|^2)}]^{1/2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?||f||_w&space;=&space;[\int_{\alpha}^{\beta}{dx\&space;w(x))|f(x)|^2)}]^{1/2}" title="||f||_w = [\int_{\alpha}^{\beta}{dx\ w(x))|f(x)|^2)}]^{1/2}" /></a>
+
+**Sobolev Space** derivatives??
+----
+###Basis vectors
 
 
 
