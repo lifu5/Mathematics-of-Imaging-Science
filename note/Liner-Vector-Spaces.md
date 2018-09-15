@@ -74,11 +74,16 @@ For the norm to exist, the integral over range(alpha, beta) must exist, so L2(a,
 ```
 add by Fu, in my view, we can regard a finite E^n as a continuous infinite function in range(alpha, beta), something like (x1,..., xN, 0,0,0,0,0), a vector in E^N corresponds to a mapping or function in range (a,b).
 ```
-**weighted scalar products** can let us deal with functions that are not square-integrable themselves. the norm is defined by <a href="https://www.codecogs.com/eqnedit.php?latex=||f||_w&space;=&space;[\int_{\alpha}^{\beta}{dx\&space;w(x))|f(x)|^2)}]^{1/2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?||f||_w&space;=&space;[\int_{\alpha}^{\beta}{dx\&space;w(x))|f(x)|^2)}]^{1/2}" title="||f||_w = [\int_{\alpha}^{\beta}{dx\ w(x))|f(x)|^2)}]^{1/2}" /></a>
+**weighted scalar products** can let us deal with functions that are not square-integrable themselves. the norm is defined by 
+<a href="https://www.codecogs.com/eqßßnedit.php?latex=||f||_w&space;=&space;[\int_{\alpha}^{\beta}{dx\&space;w(x))|f(x)|^2)}]^{1/2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?||f||_w&space;=&space;[\int_{\alpha}^{\beta}{dx\&space;w(x))|f(x)|^2)}]^{1/2}" title="||f||_w = [\int_{\alpha}^{\beta}{dx\ w(x))|f(x)|^2)}]^{1/2}" /></a>
 
-**Sobolev Space** derivatives??
+**Sobolev Space** 
+weak derivatives??
+
 ----
 ###Basis vectors
+- straightforward in E^N
+- in L2 continuous  basis (orthogonal required)
 
 
 
