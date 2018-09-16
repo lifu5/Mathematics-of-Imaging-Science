@@ -6,7 +6,7 @@ Let us define a linear vector space, in which the operations of addition and mul
 2. u(v**f**) = v(u**f**)
 3. 1**f** = **f**
 4. **f**1 +**f**2 = **f**2 + **f**1
-5. ( **f**1+**f**2)+**f*3 = **f**1 +( **f**2 +**f**3)
+5. ( **f**1+**f**2)+**f**3 = **f**1 +( **f**2 +**f**3)
 6. u( **f**1 + **f**2) = u**f**1+u**f**2
 7. **0** vector: 0**f** = **0**, **0**+**f** = **f**
 8. Continuity of addition: if lim_n **f**n = **f** lim_n **g**n = **g**, then lim_n( **f**n+**g**n) = **f**+**g**, n-> infinite
@@ -81,7 +81,7 @@ add by Fu, in my view, we can regard a finite E^n as a continuous infinite funct
 weak derivatives??
 
 ----
-###Basis vectors
+### Basis vectors
 - straightforward in E^N
 - in L2 continuous  basis (orthogonal required)
 
