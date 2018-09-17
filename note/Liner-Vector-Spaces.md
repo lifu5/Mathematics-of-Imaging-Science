@@ -36,7 +36,7 @@ Another important concept is limit of a sequnece of vectors and compelete metric
 A sequence of vector f_n in **metric space** converges the the fixed vector and ||f_n - a|| tends to zero.
 
 ```
-Cauchy sequence: distance from **f**j to **f**k approaches zero as j and k go to infinity.
+Cauchy sequence: distance from fj to fk approaches zero as j and k go to infinity.
 
 Every convergent sequence is a Cauchy sequence but the converse is not true.
 ```
